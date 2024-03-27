@@ -1,10 +1,11 @@
-<!DOCKTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
-<div class="navbar">
+<div class="topnav" id="myTopnav">
    <a href="#games"> games </a>
    <a href="#customer"> customer service </a>
    <div class="dropdown">
@@ -29,7 +30,7 @@
            </div>
     
          
-</div>
+
   <div class="dropdown">
   <button class="dropbtn">account<i class="fa fa-caret-down"></i>
   <div class="dropdown-content">
@@ -39,11 +40,22 @@
   </div>
   </button>
   </div>
-</div>
-
-         
-
-
-
-</body>
-  </html>
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()" >&#9776;</a>
+  </div>
+  
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += "responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

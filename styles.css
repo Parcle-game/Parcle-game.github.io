@@ -78,8 +78,9 @@
 }
 
 .active {
-    background-color: #00b3ff;
+  background-color: #00b3ff;
   color: black;
+  border-radius: 50px;
 }
 
 

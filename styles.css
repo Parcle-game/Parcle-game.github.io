@@ -32,7 +32,7 @@
   font-size 16px;
   border: 1px;
   outline: 1px;
-  color: ffae00;
+  color: #ffae00;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -75,4 +75,4 @@
   .dropdown:hover .dropdown-content {
   display: inline-grid;
   border-radius: 5px;
-    }
+  }

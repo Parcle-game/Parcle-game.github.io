@@ -101,7 +101,7 @@
     display: flex;
     flex-direction: column; align-items: center; }.topnav.responsive .dropdown-content { position: relative; width: 100%; }.topnav.responsive .dropdown-content a { padding: 10px 15px; text-align: center; } }
 
-button{
+.regular-buttons{
     width: 200px;
     padding: 15px 0;
     text-align: center;

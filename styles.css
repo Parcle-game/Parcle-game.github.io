@@ -15,13 +15,14 @@ body {
 /* Navbar container */
 .topnav {
   overflow: visible;
-  background-color: #ffffff;
+  background-color: #ffa703;
   font-family: Trebuchet MS;
   box-shadow: 1px 1px 9px grey;
   display: flex;
   justify-content: space-between;
   align-items: center; 
   padding: 10px 20px;/* Center items vertically */
+  border-radius: 10px;
 }
 
 /* Links inside navbar */ 
@@ -123,7 +124,7 @@ button{
     border-radius: 25px;
     font-weight: bold;
     border:2px solid #009688;
-    background: transparent;
+    background: #ffa703;
     color:#2cd6c8;
     cursor:pointer;
     position: relative;

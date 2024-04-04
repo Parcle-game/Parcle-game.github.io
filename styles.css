@@ -100,3 +100,35 @@
   .topnav.responsive {
     display: flex;
     flex-direction: column; align-items: center; }.topnav.responsive .dropdown-content { position: relative; width: 100%; }.topnav.responsive .dropdown-content a { padding: 10px 15px; text-align: center; } }
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #009688;
+    background: transparent;
+    color:#2cd6c8;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    
+}
+span{
+    background: #21aedc;
+    height:100%;
+    width:0;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%
+}
+button:hover{
+    border: none;
+  }

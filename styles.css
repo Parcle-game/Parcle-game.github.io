@@ -29,6 +29,7 @@ body {
 .topnav .menu-links {
   display: flex;
   gap: 10px
+  color: #d51414;
 }
 
 .topnav a {

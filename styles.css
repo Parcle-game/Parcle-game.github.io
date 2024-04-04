@@ -85,7 +85,7 @@ body {
 /* Change color on hover */
 .topnav a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #ffa703;
+  background-color: #03c8ff;
   border-radius: 50px;
 }
 

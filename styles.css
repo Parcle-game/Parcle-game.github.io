@@ -71,9 +71,9 @@
   border-radius: 50px;
 }
 
-/* Hide hamburger icon on desktop */
+/* Hide hamburger menu on desktop */
 @media screen and (min-width: 601px) {
-  .menu-icons {
+  #hamburgerMenu {
     display: none;
   }
 }
